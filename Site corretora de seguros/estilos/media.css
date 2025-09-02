@@ -1,0 +1,188 @@
+/* até 1024px (tablets e celulares grandes como o Poco X6) */
+@media (max-width: 1024px) {
+    .cabecalho {
+
+        padding: 5px 10px;
+        flex-direction: row;
+
+    }
+
+    .cabecalho .logo {
+        height: 40px;
+        width: auto;
+    }
+
+    .cabecalho_conteudo {
+        display: none;
+        /* esconde menu grande */
+    }
+
+    .icone_menu {
+        display: flex;
+        height: 40px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+
+    .sub {
+        display: flex;
+        background: linear-gradient(90deg, #bea99b, #ffb586 100%);
+        top: 10px;
+    }
+
+    .sub img {
+        width: 120px;
+        height: 15px;
+    }
+
+    .categorias.mobille {
+        position: relative;
+        display: flex;
+    }
+
+
+    .menu_produtos {
+        width: 150px;
+        top: 40px;
+        border-radius: 0 12px 0 12px;
+        left: -110px;
+
+    }
+
+    .menu_produtos hr {
+        width: 150px;
+    }
+
+    /*----------------------------------------------------------------->>>>>>*/
+
+    main {
+        background: linear-gradient(90deg, #bea99b, #ffb586 100%);
+
+    }
+
+    /*Primeira sessão*/
+    .conteudo_principal {
+        height: auto;
+        padding: 5px 0 0 0;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .texto {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width: 90vw;
+    }
+
+    .rede {
+        cursor: none;
+    }
+
+    /*Inicio Carrossel imagens*/
+    .imagem_propaganda {
+        margin-top: 30px;
+        max-height: 340px;
+        cursor: none;
+    }
+
+    /*Fim Carrossel de imagens*/
+    /*Fim Primeira Sessão*/
+
+    /*Inicio segunda Sessão*/
+
+    .produtos_destaques {
+        padding: 50px 0px 10px 0px;
+        height: auto;
+        gap: 0px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .produto_destaque {
+        cursor: none;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .produto_destaque p {
+        font-size: 10px;
+    }
+
+    .produto_destaque hr {
+        width: 70px;
+    }
+
+    .produto_destaque img {
+        height: auto;
+        width: 50px;
+    }
+
+    .produto_destaque a {
+        font-size: 10px;
+    }
+
+    /* fim segunda sessao*/
+    /*--------------------------------------------------*/
+    /*Inicio terceira sessao*/
+
+    .contatos {
+        width: 100vw;
+        height: auto;
+    }
+
+    .contatos_conteudo {
+        padding: 15px;
+    }
+
+    .contatos_conteudo h3 {
+        font-size: 30px;
+
+    }
+
+    .contato_opcao {
+        width: inherit;
+
+    }
+
+    .contato_opcao strong {
+        font-size: 20px;
+
+    }
+
+    .contato_opcao p {
+        font-size: 15px;
+    }
+
+    /* .contato_icone{
+    
+} */
+
+    .contato_imagem_propaganda {
+
+        display: none;
+
+    }
+
+/*-----------------------------------------*/
+.dicas h4{
+    font-size: 30px;
+    
+    
+}
+.dicas p{
+    font-size: 20px;
+}
+
+.dicas li{
+    font-size: 15px;
+    
+}
+.dicas li img{
+    height: 15px;
+}
+
+}
